@@ -16,7 +16,7 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 ## 🧠 Features
 
 - Real-time pose detection using OpenPose
-- Cosine similarity and DTW to analyze motion accuracy
+- Cosine Similarity + Euclidean distance + Joint Angle similarity to analyze motion accuracy
 - Easy-to-read feedback for performance (Perfect, Good, More Practice)
 - Clean front-end display of live and reference videos side-by-side
 - Extensible for fitness, dance, or rehab applications
