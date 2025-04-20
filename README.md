@@ -36,3 +36,10 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 4. Cosine Similarity + Euclidean distance + Joint Angle similarity are used to compare poses
 5. Feedback is generated based on similarity thresholds
 
+## Must know before running
+Make sure you save your video under "openpose-motion-compare" and name it as "reference"
+File paths are hard coded you might have to change it to your local path
+Make sure that every time you run your Pose-Match, you clear the cache in live_json
+Make sure before you download and store the data for new video, you clear the cache in reference_json
+
+
