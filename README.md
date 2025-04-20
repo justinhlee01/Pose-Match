@@ -6,13 +6,6 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 
 ---
 
-## 🖼️ Demo
-
-<!-- Add a gif or screenshot of the app working in action here -->
-<!-- Example: ![PoseMatch Demo](images/demo.gif) -->
-
----
-
 ## 🧠 Features
 
 - Real-time pose detection using OpenPose
@@ -43,12 +36,3 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 4. Cosine Similarity + Euclidean distance + Joint Angle similarity are used to compare poses
 5. Feedback is generated based on similarity thresholds
 
----
-
-## 📦 Installation
-
-<!-- You can customize or expand this later -->
-```bash
-git clone https://github.com/your-username/posematch.git
-cd posematch
-# Add your setup commands here (virtualenv, requirements.txt, etc.)
