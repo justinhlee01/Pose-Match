@@ -29,22 +29,10 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 - **OpenPose** – Pose detection framework
 - **NumPy / SciPy** – Data handling and math operations
 - **OpenCV** – Video and webcam handling
-- **Matplotlib** (optional) – For pose visualization
 
 ---
 
-## 📷 Screenshots
 
-<!-- Add screenshots of your interface, webcam + video layout, feedback labels etc. -->
-<!-- Example:
-### Main Comparison Screen
-![Main View](images/main_interface.png)
-
-### Pose Similarity Feedback
-![Feedback Example](images/feedback.png)
--->
-
----
 
 ## 🧭 How It Works
 
@@ -52,7 +40,7 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 1. User uploads a reference video
 2. System extracts pose keypoints using OpenPose
 3. Live webcam feed captures user motion in real-time
-4. Cosine Similarity + DTW are used to compare poses
+4. Cosine Similarity + Euclidean distance + Joint Angle similarity are used to compare poses
 5. Feedback is generated based on similarity thresholds
 
 ---
