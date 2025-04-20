@@ -2,7 +2,7 @@
 
 Match your moves. Master your motion.
 
-PoseMatch is a real-time motion comparison tool that helps you improve your physical movements by comparing a user’s live webcam feed with a reference video. It uses pose detection, cosine similarity, and dynamic time warping to provide instant feedback like **Perfect**, **Good**, or **More Practice**.
+PoseMatch is a real-time motion comparison tool that helps you improve your physical movements by comparing a user’s live webcam feed with a reference video. It uses pose detection, cosine similarity, and dynamic time warping to provide instant feedback.
 
 ---
 
@@ -30,7 +30,6 @@ PoseMatch is a real-time motion comparison tool that helps you improve your phys
 - **NumPy / SciPy** – Data handling and math operations
 - **OpenCV** – Video and webcam handling
 - **Matplotlib** (optional) – For pose visualization
-- **Tkinter / Flask / Streamlit** (or whichever you use) – Frontend display (add your choice)
 
 ---
 
